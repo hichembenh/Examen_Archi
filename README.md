@@ -8,9 +8,13 @@
 3. Customer-service:
 - Springboot
 - MySQL
+- jdbc:mysql://localhost/3030 
+- PORT : 8080
 4. Billing-service:
 - Springboot
 - MySQL
+- jdbc:mysql://localhost:3020
+- PORT : 8082
 5. Commande:
 - NodeJS
 - Mongodb
@@ -21,8 +25,3 @@
 - Dockerfile ready
 7. Front:
 - ReactJS
-
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
